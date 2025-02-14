@@ -74,7 +74,6 @@ namespace ClassLibrary3.EventHandlers
                 Cont2 = true; 
                 Armory1 = true;
                 Armory2 = true;
-                Checkp = true; 
                 Log.Info("Operative"); }
 
             if (args.Player.HasItem(ItemType.KeycardMTFCaptain) || args.Player.HasItem(ItemType.KeycardChaosInsurgency)) 
